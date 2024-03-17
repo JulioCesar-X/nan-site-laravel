@@ -13,10 +13,11 @@ class CreateCourseUserTable extends Migration
      */
     public function up()
     {
-        Schema::create('course_user', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        // Schema::create('course_user', function (Blueprint $table) {
+        //     $table->id();
+        //      $table->int('time_of_lessons');
+        //     $table->timestamps();
+        // });
     }
 
     /**

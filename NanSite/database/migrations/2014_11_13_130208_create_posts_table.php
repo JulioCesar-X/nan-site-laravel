@@ -13,16 +13,16 @@ class CreatePostsTable extends Migration
      */
     public function up()
     {
-        Schema::create('posts', function (Blueprint $table) {
+        // Schema::create('posts', function (Blueprint $table) {
 
-            $table->id();
-            $table->foreignId('user_id')->constrained();
-            $table->foreignId('lesson_id')->constrained();
-            $table->text('content');
-            $table->timestamps();
-            $table-> softDeletes();
+        //     $table->id();
+        //     $table->foreignId('user_id')->constrained();
+        //     $table->foreignId('lesson_id')->constrained();
+        //     $table->text('content');
+        //     $table->timestamps();
+        //     $table-> softDeletes();
 
-        });
+        // });
     }
 
     /**

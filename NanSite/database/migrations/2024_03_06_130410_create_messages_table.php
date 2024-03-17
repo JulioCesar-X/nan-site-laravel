@@ -13,14 +13,14 @@ class CreateMessagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('messages', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('user_id')->constrained();
-            $table->string('recipient');
-            $table->text('content');
-            $table->timestamps();
-            $table->softDeletes();
-        });
+        // Schema::create('messages', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->foreignId('user_id')->constrained();
+        //     $table->string('recipient');
+        //     $table->text('content');
+        //     $table->timestamps();
+        //     $table->softDeletes();
+        // });
     }
 
     /**

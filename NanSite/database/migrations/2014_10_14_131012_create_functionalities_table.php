@@ -13,10 +13,10 @@ class CreateFunctionalitiesTable extends Migration
      */
     public function up()
     {
-        Schema::create('functionalities', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        // Schema::create('functionalities', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->timestamps();
+        // });
     }
 
     /**
