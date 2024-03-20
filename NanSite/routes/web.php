@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,14 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Auth::routes();
 
+Route::get('/home', 'HomeController@index');
 Route::get('/home', 'UserController@index');
+
 Route::get('/logout', function (){
     Auth::logout();
     return redirect('/');
+
 });

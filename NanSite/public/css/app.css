@@ -636,6 +636,12 @@ pre code {
   padding-right: 0;
   padding-left: 0;
 }
+.user-card{
+        margin-top: 70px;
+    background-color: yellow;
+    border-radius: 4rem;
+    padding: 30px;
+}
 
 .col-xl,
 .col-xl-auto,
@@ -5007,7 +5013,9 @@ input[type=button].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 1.25rem;
+  padding-bottom: 31px;
+  border: dashed;
 }
 
 .card > hr {
